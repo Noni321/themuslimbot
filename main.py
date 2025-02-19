@@ -9,7 +9,16 @@ import quran_audio
 
 
 
-app = Client("my_bot")
+API_ID = "21805327"
+API_HASH = "dc2f0714eba957ff3723282b569c72ed"
+BOT_TOKEN = "7940079841:AAFCiUuZwK4o_iTXJ4aS1bs72pI7M5H_YqA"
+
+app = Client(
+    "my_bot",
+    api_id=API_ID,
+    api_hash=API_HASH,
+    bot_token=BOT_TOKEN
+)
 
 ################### SALAH API ########################
 
